@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     a11y: {
       enabled: true,
       slideRole: 'listitem'
-    }
+    },
     on: {
       slideChangeTransitionStart: function () {
         animateNumbers(this.slides[this.activeIndex]);
